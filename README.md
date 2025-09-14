@@ -1,4 +1,4 @@
-# Порт перевода от [группы "Котонэ"](https://vk.com/kotone_team)
+# Порт перевода [группы "Котонэ"](https://vk.com/kotone_team)
 # для MS Store/Game Pass/Xbox App версии Persona 3 Portable
 
 ## Предварительные условия
