@@ -38,11 +38,11 @@
 <img width="419" height="153" alt="image" src="https://github.com/user-attachments/assets/7a7e18b8-c09a-496e-b649-22003641a50d" />
 
 8. Установится мод с переводом и все зависимости. Зависимости будут видны в списке, но самого перевода видно не будет, это предстоит исправить.
-9. Закрывыем прорграмму Reloaded II, она нам пока не понадобится
+9. Закрывыем программу Reloaded II, она нам пока не понадобится
 
 ## Изменяем русификатор чтобы он работал с MS Store/Game Pass/Xbox App версией Persona 3 Portable
 1. Переходим в папку куда распаковали Release.zip (Например: в C:\Games\Reloaded)
-2. Далее мереходим в Mods → p3ppc.text.russianTranslation (Например: C:\Games\Reloaded\Mods\p3ppc.text.russianTranslation)
+2. Далее переходим в Mods → p3ppc.text.russianTranslation (Например: C:\Games\Reloaded\Mods\p3ppc.text.russianTranslation)
 3. Находим файл ModConfig.json и открываем его в блокноте
 4. Ищем строку SupportedAppId, добавляем строкой ниже название нашего exe файла двойных кавычках "p3p_sln_dt_m.exe"
 5. Должно получиться так:
