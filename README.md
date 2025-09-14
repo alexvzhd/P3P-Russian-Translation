@@ -52,7 +52,7 @@
     "p3p.exe"
   ],
 ```
-5. Качаем файлы EmbededFiles.json и Pointermap.json с этой страницы и копируем их с заменой в папку p3ppc.text.russianTranslation (Например: C:\Games\Reloaded\Mods\p3ppc.text.russianTranslation)
+5. Качаем файлы EmbededFiles.json, EmbededFilesRawReplace.json и Pointermap.json с этой страницы и копируем их с заменой в папку p3ppc.text.russianTranslation (Например: C:\Games\Reloaded\Mods\p3ppc.text.russianTranslation)
 6. Снова запускаем Reloaded-II.exe и в списке модов теперь видим перевод, отмечаем кликаем по квадратику слева от названия чтобы там появился плюсик
 <img width="1350" height="855" alt="image" src="https://github.com/user-attachments/assets/f710ff31-fe2f-4880-8c7c-9eb809b6100d" />
 
