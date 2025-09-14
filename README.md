@@ -25,7 +25,7 @@
 
 
 
-## Установка русификатора
+## Устанавливаем русификатор от [группы "Котонэ"](https://vk.com/kotone_team)
 1. Скачиваем загрузчик модов [Reloaded II](https://github.com/Reloaded-Project/Reloaded-II/releases/latest)
 2. Распаковываем скачанный по ссылке выше Release.zip (например в C:\Games\Reloaded) и запускаем Reloaded-II.exe
 3. При первом запуске Reloaded может обновить необходимые компоненты
@@ -39,21 +39,23 @@
 
 8. Установится мод с переводом и все зависимости. Зависимости будут видны в списке, но самого перевода видно не будет, это предстоит исправить.
 9. Закрывыем прорграмму Reloaded II, она нам пока не понадобится
-10. Переходим в папку куда распаковали Release.zip (Например: в C:\Games\Reloaded)
-11. Далее мереходим в Mods → p3ppc.text.russianTranslation (Например: C:\Games\Reloaded\Mods\p3ppc.text.russianTranslation)
-12. Находим файл ModConfig.json и открываем его в блокноте
-13. Ищем строку SupportedAppId, добавляем строкой ниже название нашего exe файла двойных кавычках "p3p_sln_dt_m.exe"
-14. Должно получиться так:
+
+## Изменяем русификатор чтобы он работал с MS Store/Game Pass/Xbox App версией Persona 3 Portable
+1. Переходим в папку куда распаковали Release.zip (Например: в C:\Games\Reloaded)
+2. Далее мереходим в Mods → p3ppc.text.russianTranslation (Например: C:\Games\Reloaded\Mods\p3ppc.text.russianTranslation)
+3. Находим файл ModConfig.json и открываем его в блокноте
+4. Ищем строку SupportedAppId, добавляем строкой ниже название нашего exe файла двойных кавычках "p3p_sln_dt_m.exe"
+5. Должно получиться так:
 ```
   "SupportedAppId": [
     "p3p_sln_dt_m.exe",
     "p3p.exe"
   ],
 ```
-15. Качаем файлы EmbededFiles.json и Pointermap.json с этой страницы и копируем их с заменой в папку p3ppc.text.russianTranslation (Например: C:\Games\Reloaded\Mods\p3ppc.text.russianTranslation)
-16. Снова запускаем Reloaded-II.exe и в списке модов теперь видим перевод, отмечаем кликаем по квадратику слева от названия чтобы там появился плюсик
+5. Качаем файлы EmbededFiles.json и Pointermap.json с этой страницы и копируем их с заменой в папку p3ppc.text.russianTranslation (Например: C:\Games\Reloaded\Mods\p3ppc.text.russianTranslation)
+6. Снова запускаем Reloaded-II.exe и в списке модов теперь видим перевод, отмечаем кликаем по квадратику слева от названия чтобы там появился плюсик
 <img width="1350" height="855" alt="image" src="https://github.com/user-attachments/assets/f710ff31-fe2f-4880-8c7c-9eb809b6100d" />
 
-17. Перевод установлен, можно закрывать Reloaded II и запускать игру как обычно из меню Пуск/из приложения Xbox и т.д.
-18. При запуске игры будет появляться окно консоли с пробегающими строчками перевода, это норма, без этого окна перевод не будет работать так как текст заменяется в процессе запуска.
+7. Перевод установлен, можно закрывать Reloaded II и запускать игру как обычно из меню Пуск/из приложения Xbox и т.д.
+8. При запуске игры будет появляться окно консоли с пробегающими строчками перевода, это норма, без этого окна перевод не будет работать так как текст заменяется в процессе запуска.
 
