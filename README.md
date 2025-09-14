@@ -28,7 +28,7 @@
 ## Устанавливаем русификатор от [группы "Котонэ"](https://vk.com/kotone_team)
 1. Скачиваем загрузчик модов [Reloaded II](https://github.com/Reloaded-Project/Reloaded-II/releases/latest)
 2. Распаковываем скачанный по ссылке выше Release.zip (например в C:\Games\Reloaded) и запускаем Reloaded-II.exe
-3. При первом запуске Reloaded может обновить необходимые компоненты
+3. При первом запуске Reloaded может попросить установить или обновить необходимые для его работы компоненты (Например .NET 9.0 Desktop Runtime и т.п.)
 4. Жмём на кнопку плюса в кружке, открываем папку с играми Xbox → Persona 3 Portable → Content → выбираем p3p_sln_DT_m.exe (Например: C:\Games\Persona 3 Portable\Content\p3p_sln_DT_m.exe)
 <img width="1050" height="630" alt="image" src="https://github.com/user-attachments/assets/1dc88bc5-e084-47ea-a174-bf7ceb9e2d8b" />
 
